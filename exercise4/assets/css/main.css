@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: burlywood;
+	position: relative;
+}
+
+.table {
+	position: absolute;
+	display: block;
+	top: 450px;
+	width: 900px;
+	height: 120px;
+	background: saddlebrown;
+}
+
+
+.base {
+	position: absolute;
+	display: block;
+	top: 315px;
+	left: 500px;
+	width: 120px;
+	height: 190px;
+	background: darkorange;
+	z-index: 10;
+}
+
+.glass {
+	position: absolute;
+	display: block;
+	top: 255px;
+	left: 500px;
+	width: 121px;
+	height: 250px;
+	background: white;
+	opacity: 0.4;
+	z-index: 11;
+}
+
+.top{
+	position: absolute;
+	display: block;
+	top: 238px;
+	left: 500px;
+	width: 120px;
+	height: 40px;
+	background: burlywood;
+	border-radius: 50%;
+    z-index: 12;
+}
+
+.rim{
+	position: absolute;
+	display: block;
+	top: 238px;
+	left: 500px;
+	width: 121px;
+	height: 40px;
+	border-radius: 50%;
+    z-index: 13;
+    border: 3px solid white;
+    opacity: 0.4;
+}
