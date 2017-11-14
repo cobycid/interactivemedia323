@@ -1,0 +1,55 @@
+body {
+	background: lightgray;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+ 	color: transparent;
+    text-shadow: 0 0 15px rgba(0,0,0,0.7);
+    opacity: 25%;
+}
+
+/* selected link */
+a:active {
+    color: black;
+} 
+
+h2 {
+	color: white;
+	letter-spacing: 20px;
+}
+
+h1 {
+	color: white;
+	letter-spacing: 50px;
+	padding: 100px;
+	text-decoration: none;
+}
+
+#name {
+	position: relative;
+	display: block;
+	top: -30px;
+	font-size: 50px;
+	letter-spacing: 120px;
+	color: white;
+}
+
+#author {
+	font-size: 12px;
+	position: relative;
+	display: block;
+	top: -80px;
+	letter-spacing: 10px;
+	color: white;
+}
